@@ -1,0 +1,102 @@
+
+[id^="product-row"], #product-table {
+  /* padding: 10px; */
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  background: rgba(14, 191, 245, 0.3);
+  margin: 10px;
+
+}
+#product-table {
+  margin-top: 100px;
+  margin-left: 400px;
+  box-shadow: 0px 0px 15px #4a4a4a6e;
+  transition: all .2s ease-out;
+}
+
+#product-table.tabulator .tabulator-tableholder .tabulator-table {
+  width: 100%;
+  background-color: rgba(14, 191, 245, 0.3);
+}
+
+
+.tabulator-col-title {
+background-color: #18355B;
+color: white;
+border-radius: 15px;
+padding: 5px;
+font-size: 80%;
+width: 100%;
+}
+
+.tabulator-row.tabulator-selectable:hover {
+  background-color: white;
+}
+
+.product-card-image{
+  padding: 5px;
+  background: #eee;
+  margin: 0;
+  max-height: 350px;
+}
+
+.tabulator-row{
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+
+}
+
+
+.tabulator-header{
+  margin: 10px 0 0 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+#close-filters,
+#close-product {
+  font-family: "Oswald", sans-serif;
+  color: #18355B;
+  font-size: 1.25rem;
+  margin: 5px 5px 10px 5px;
+  transition: all 0.2s ease;
+}
+
+#close-filters:hover,
+#close-product:hover {
+  cursor: pointer;
+  color: #18355B;
+  transform: scale(1.25);
+}
+
+.resize {
+  font-size: 1.5em;
+  color:#18355B;
+  margin: 0 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+.resize:hover {
+  cursor: pointer;
+  color: red;
+  transform: scale(1.25);
+}
+
+.onSale{
+  color: red;
+  text-decoration: line-through;
+}
+
+.card-price{
+  font-size: 1.75em;
+  font-weight: 800;
+}
+
+.product-card-title{
+  font-size: 1.5em;
+  font-weight: 800;
+}

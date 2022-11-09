@@ -1,0 +1,92 @@
+:root {
+  --div: rgb(247, 247, 247);
+}
+
+.form-check-inline {
+  margin-right: 0;
+}
+
+.form-label {
+  font-weight: bold;
+  user-select: none;
+  font-size: 1em;
+}
+
+.form-check-label {
+  font-size: 0.9em;
+  user-select: none;
+}
+.date-label {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#variant-filters > div:not(#date-row) {
+  margin: 5px;
+  padding: 5px;
+  box-shadow: -0px 0px 10px #838282b6;
+  border: 1px solid #00000031;
+  border-radius: 3px;
+  background-color: var(--div);
+}
+
+.date-filter {
+  border-radius: 3px;
+  box-shadow: -0px 0px 10px #838282b6;
+  border: 1px solid #00000031;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  background-color: var(--div);
+  width: 49%;
+  min-width: 200px !important;
+}
+
+#advanced-filters {
+  margin-left: 5px;
+  padding: 10px 20px 20px 20px;
+  box-shadow: -0px 0px 15px #4a4a4a6e;
+  border: 1px solid #00000029;
+  border-radius: 6px;
+  background-color: var(--div);
+}
+
+#variant-filters {
+  margin-top: 18px;
+}
+
+#date-row {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.filter-label {
+  width: 125px;
+}
+
+.col-one {
+  width: 150px;
+  padding-bottom: 5px;
+}
+
+.col-two {
+  width: 150px;
+  padding-bottom: 5px;
+}
+
+.form-floating {
+  margin-left: 25px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.filter-container{
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .date-filter {
+    width: 100%;
+  }
+}
